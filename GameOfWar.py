@@ -79,10 +79,10 @@ def playRound(PlayerA, PlayerB):
 	if A_rank > B_rank:
 		print("Player A wins\n")
 		PlayerA.insert(0,ACard)
-		PlayerA.insert(0,BCard)
+	#	PlayerA.insert(0,BCard)
 	elif A_rank < B_rank:
 		print("Player B wins\n")
-		PlayerB.insert(0,ACard)
+	#	PlayerB.insert(0,ACard)
 		PlayerB.insert(0,BCard)
 	else:
 		#WAR!!
@@ -96,7 +96,7 @@ def playRound(PlayerA, PlayerB):
 def WAR(PlayerA, PlayerB):
 	# for now if there is a war, both players lose a card.
 	print("Everyone loses in a War")
-	X = input("War")
+#	X = input("War")
 	return PlayerA, PlayerB
 
 
