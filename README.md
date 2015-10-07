@@ -23,4 +23,4 @@ ONE round. I.E.
     1. Save off 3 cards from each player.    
     2. Match the 4th card.  
     3. Winner gets ALL the cards.   
-    4. If this play is a tie, all cards are discarded (lost).  
+    4. If *this* play is a tie, all cards are discarded (lost).  

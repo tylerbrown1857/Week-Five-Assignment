@@ -38,9 +38,6 @@ def main():
 		
 	while len(PlayerAHand) > 0 and len(PlayerBHand) > 0:
 		gameCounter += 1
-		print("Game counter = " + str(gameCounter))
-		print("A hand:" + str(PlayerAHand))
-		print("B hand:" + str(PlayerBHand))
 		PlayerAHand, PlayerBHand = playRound(PlayerAHand, PlayerBHand)
 	
 	# End of game
@@ -64,6 +61,8 @@ def playRound(PlayerA, PlayerB):
 
 
 def WAR(PlayerA, PlayerB):
+	# See the README.md file for instructions on coding 
+	# This module.
 
 	return PlayerA, PlayerB
 
